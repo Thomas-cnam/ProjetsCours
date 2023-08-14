@@ -1,0 +1,57 @@
+$today = time(); 
+            $time = $today; 
+            $datejour = date("d m Y");
+            echo  "<tr>
+                        <td></td>";
+                        $datejour;
+                    "</tr>";
+            for ($i=0; $i <= 7; $i++) {
+                $time += 86400; 
+                
+               $datejour = date("d m Y" , + $time);
+               
+            
+            
+            
+               echo "<tr>
+                        <td></td>
+                        $datejour; 
+                    </tr>";
+            }
+            ?>
+            
+        
+        </table> 
+        <table>
+            <!-- en-tête du tableau -->
+            <thead>
+                <!-- on ne met pas d'en-tête pour ce tableau -->
+            </thead>
+            <!-- corps du tableau -->
+            <tbody id="corps">
+                <tr>
+                    <td>9h - 10h</td><td id="c9"></td>
+                </tr>
+                <tr>
+                    <td>10h - 11h</td><td id="c10"></td>
+                </tr>
+                <tr>
+                    <td>11h - 12h</td><td id="c11"></td>
+                </tr>
+                <tr>
+                    <td>12h - 13h</td><td id="c12"></td>
+                </tr>
+                <tr>
+                    <td>13h - 14h</td><td id="c13"></td>
+                </tr>
+                <tr>
+                    <td>14h - 15h</td><td id="c14"></td>
+                </tr>
+                <tr>
+                    <td>15h - 16h</td><td id="c15"></td>
+                </tr>
+                <tr>
+                    <td>16h - 17h</td><td id="c16"></td>
+                </tr>
+                <tr>
+                    <td>17h - 18h</td><td id="c17"></td> 

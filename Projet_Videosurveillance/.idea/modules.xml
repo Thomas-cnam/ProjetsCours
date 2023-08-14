@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ProjetVideoSurveillance/ProjetVideoSurveillance.iml" filepath="$PROJECT_DIR$/ProjetVideoSurveillance/ProjetVideoSurveillance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Projet_Videosurveillance.iml" filepath="$PROJECT_DIR$/.idea/Projet_Videosurveillance.iml" />
+    </modules>
+  </component>
+</project>

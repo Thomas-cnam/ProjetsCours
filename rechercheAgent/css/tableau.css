@@ -1,0 +1,40 @@
+html {
+    background-color: #D7D9CC;
+}
+
+table {
+    text-align: center;
+    table-layout: fixed;
+    width: 100%;
+    min-width: 100px;
+    border-collapse: collapse;
+    border: 3px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+th, td {
+    padding: 10px;
+    border: solid;
+    min-width: 100px;
+
+}
+
+td {
+    border: 1px solid black;
+
+}
+
+h1 {
+    text-align: center;
+
+}
+
+.tableau {
+    overflow-x: auto;
+    overflow-y: auto;
+
+}
+
+

@@ -1,0 +1,32 @@
+td, th {
+    text-align: center;
+ }
+
+ table {
+    background-color: #a3888818;
+}
+
+body {
+    background-color: grey ;
+}
+
+td.details-control {
+    background: url('details_open.png') no-repeat center center;
+    cursor: pointer;
+}
+tr.details td.details-control {
+    background: url('details_close.png') no-repeat center center;
+}
+
+.agent-table tr td:last-child {
+    text-align: left;
+
+}
+
+.categorie {
+    margin: 0 10rem;
+}
+
+card-body {
+    justify-content: space-between;
+}
